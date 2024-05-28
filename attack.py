@@ -5,9 +5,9 @@ def send_rst(src_ip, dst_ip, src_port, dst_port):
 
 def main():
     # 定义源IP地址、目标IP地址和目标端口
-    src_ip = "192.168.3.4"
-    dst_ip = "82.157.125.228"
-    dst_port = 80
+    src_ip = "192.168.1.102"
+    dst_ip = "101.6.43.127"
+    dst_port = 90
 
     # 循环遍历源端口范围，并发送RST报文
     for src_port in range(50000, 50010):
